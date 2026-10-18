@@ -1,3 +1,34 @@
 [gd_scene format=3 uid="uid://dncckumix2auu"]
 
+[ext_resource type="PackedScene" uid="uid://cujnwsvae70ys" path="res://scenes/grid_slot.tscn" id="1_o5qli"]
+
 [node name="Root" type="Node2D" unique_id=474075063]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=877591981]
+
+[node name="grid-slot" parent="." unique_id=990998144 instance=ExtResource("1_o5qli")]
+position = Vector2(-69, -196)
+
+[node name="grid-slot2" parent="." unique_id=2071946849 instance=ExtResource("1_o5qli")]
+position = Vector2(-4, -197)
+
+[node name="grid-slot3" parent="." unique_id=618490321 instance=ExtResource("1_o5qli")]
+position = Vector2(64, -194)
+
+[node name="grid-slot4" parent="." unique_id=343175591 instance=ExtResource("1_o5qli")]
+position = Vector2(-69, -124)
+
+[node name="grid-slot5" parent="." unique_id=1083686081 instance=ExtResource("1_o5qli")]
+position = Vector2(-4, -125)
+
+[node name="grid-slot6" parent="." unique_id=1519258660 instance=ExtResource("1_o5qli")]
+position = Vector2(64, -122)
+
+[node name="grid-slot7" parent="." unique_id=357506251 instance=ExtResource("1_o5qli")]
+position = Vector2(-65, -54)
+
+[node name="grid-slot8" parent="." unique_id=1537270869 instance=ExtResource("1_o5qli")]
+position = Vector2(0, -55)
+
+[node name="grid-slot9" parent="." unique_id=1796682796 instance=ExtResource("1_o5qli")]
+position = Vector2(68, -52)

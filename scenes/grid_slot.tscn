@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cujnwsvae70ys"]
+
+[ext_resource type="Texture2D" uid="uid://gmn2utqxjfc5" path="res://assets/grid-slot.png" id="1_va3o0"]
+
+[node name="grid-slot" type="Node2D" unique_id=990998144]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1631953908]
+z_index = -1
+texture = ExtResource("1_va3o0")
